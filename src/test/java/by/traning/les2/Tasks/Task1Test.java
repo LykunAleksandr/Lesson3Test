@@ -12,6 +12,12 @@ public class Task1Test {
     }
     @org.junit.Test
     public  void isEquelT2 (){
+        boolean actual = Task1.isEquel(new int[] {1, 2, 3 });
+        boolean expected = false;
+        assertEquals(expected, actual);
+    }
+    @org.junit.Test
+    public  void isEquelT3 (){
         boolean actual = Task1.isEquel(new int[] {2, 3, 4, 1});
         boolean expected = true;
         assertEquals(expected, actual);

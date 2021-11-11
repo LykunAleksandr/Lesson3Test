@@ -29,7 +29,7 @@ public class Task1 {
                     array [i] = Integer.valueOf(stringArray[i]);
                 } catch (NumberFormatException e) {
                     System.out.println("Не верный формат");
-                   // e.printStackTrace();
+                    e.printStackTrace();
                     isCorrect = true;
                     break;
                 }
